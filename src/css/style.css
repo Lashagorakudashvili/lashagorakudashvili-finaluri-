@@ -22,22 +22,131 @@
     text-align: center;
 }
 
-.github {
+.github-1 {
     max-width: 18px;
     margin-left: -77px;
     margin-top: 15px;
     
 }
 
-.facebook {
+.facebook-1 {
     max-width: 19px;
     margin-left: -48px;
     margin-top: -45px;
 }
 
-.yt {
+.yt-1 {
     max-width: 20px;
     margin-left: -16px;
     margin-top: -92px;
     
 }
+
+.horizontal-line-1 {
+    border-bottom: 3.5px solid #E93656;
+    border-radius: 50px;
+    width: 193px;
+    top: 27em;
+    right: 30px;
+    position: absolute;  
+}
+
+
+
+
+
+
+
+.hire-me-btn {
+    width: 135px;
+    height: 43px;
+    background-color: #E93656;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+     /* line-height: 50px;  */
+    text-decoration: none;
+    display: inline-block;
+
+    position: absolute; 
+    top: 53rem; 
+    left: 265px; 
+}
+
+
+.hire-me-btn:hover {
+    background-color: #D91E3F;
+    cursor: pointer;
+}
+
+
+
+
+
+/*.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    margin-top: -28rem;
+    margin-left: -20rem !important;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+
+    margin-left: 10rem;
+}
+
+.job-title {
+    font-size: 13px;
+    margin-bottom: 1rem;
+
+    color: #DAAE19;
+    margin-top: -0.6rem;
+    margin-left: 16.5rem;
+}
+
+.description {
+    font-size: 12px;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    text-align: center;
+
+    margin-left: 5rem;
+    max-width: 300px;
+}
+
+.hire-me-btn {
+    width: 120px;
+    height: 45px;
+    background-color: #E93656;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* border-radius: 10px; 
+    padding: 0;
+
+    margin-left: 14.5rem;
+}
+
+.hire-me-btn:hover {
+    background-color: #D91E3F;
+    cursor: pointer;
+}
+
+.hire-me-btn-container {
+    display: flex;
+    justify-content: center;
+}*/
+
