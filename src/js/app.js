@@ -17,14 +17,28 @@ setInterval(changeImage, 5000);
 
 
 
-// ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-const line = document.querySelector('.line-1');
+const lines = document.querySelectorAll('.line-1, .line-2, .line-3, .line-4');
 
 window.addEventListener('scroll', function() {
-  const linePos = line.getBoundingClientRect().top;
   const windowHeight = window.innerHeight;
 
-  if (linePos < windowHeight * 0.8) {
-    line.style.width = '100%';
-  }
+  lines.forEach(line => {
+    const linePos = line.getBoundingClientRect().top;
+    if (linePos < windowHeight * 0.8) {
+      line.style.width = '100%';
+    }
+  });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
