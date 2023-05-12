@@ -239,7 +239,7 @@
 
 
 
-@media (width =2560px) {
+@media (width = 2560px) {
     .stat-1 {
         margin-right: 40rem !important;
     }
@@ -372,12 +372,6 @@
     }
 }
 
-
-
-
-
-
-/* ///////////////////////////////////////////////////////////////////// */
 .square-button {
     width: 20px;
     height: 20px;
@@ -409,11 +403,120 @@
 
 .square-button:hover::before {
     opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .button-container {
     display: flex;
     align-items: center;
 }
+
+@media (width = 2560px) {
+    .button-container {
+        margin-left: 94rem !important;
+    }
+}
+
+@media (width=1440px) {
+    .button-container {
+        margin-left: 59.2rem !important;
+    }
+}
+
+@media (width=1024px) {
+    .button-container {
+        margin-left: 45.2rem !important;
+    }
+}
+
+.phone-img-1:hover {
+    background-color: #E93656;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.phone-img-1, .email-img {
+    background-color: transparent;
+    transition-property: background-color, border-radius;
+    transition-duration: 0.3s;
+}
+
+.email-img:hover {
+    background-color: #E93656;
+    border-radius: 50%;
+}
+
+.my-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30rem !important;
+}
+
+.my-card {
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    width: calc(25% - 5px);
+    margin-bottom: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+
+   
+}
+
+.my-card:hover {
+    background-color: #15263E;
+}
+
+.my-card:hover img,
+.my-card:hover .my-card-text {
+    display: none;
+}
+
+.my-card:hover .my-card-title,
+.my-card:hover .my-card-info {
+    display: block;
+}
+
+
+.my-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-card:hover {
+    background-color: #15263E;
+}
+
+.my-card:hover img,
+.my-card:hover .my-card-text {
+    display: none;
+}
+
+.my-card:hover h2,
+.my-card:hover .my-card-info {
+    display: block;
+    color: #FFFFFF;
+}
+
+.my-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.my-card-text {
+    color: #000000;
+}
+
+h2,
+.my-card-info {
+    display: none;
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+
 
 
