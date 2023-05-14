@@ -1,4 +1,5 @@
-const images = [  'src/images/jip-bartels.png',  'src/images/Huet-Gray-Asst-Dir-of-Dietary-900x900-1-removebg-preview.png',  'src/images/Sian-Donaldson-900x900-1-removebg-preview.png'];
+// ///////////////////////////
+const images = ['src/images/jip-bartels.png', 'src/images/Huet-Gray-Asst-Dir-of-Dietary-900x900-1-removebg-preview.png', 'src/images/Sian-Donaldson-900x900-1-removebg-preview.png'];
 
 let currentIndex = 0;
 const image = document.querySelector('.card-img-1');
@@ -16,7 +17,7 @@ setInterval(changeImage, 5000);
 
 
 
-
+// ///////////////////////////
 const lines = document.querySelectorAll('.line-1, .line-2, .line-3, .line-4');
 
 window.addEventListener('scroll', function() {
@@ -36,7 +37,7 @@ window.addEventListener('scroll', function() {
 
 
 
-
+// ///////////////////////////
 const smallImage = document.querySelector('.circle-border img');
 const leftText = document.querySelector('.left-text p');
 const rightText1 = document.querySelector('.right-image p:first-of-type');
@@ -77,164 +78,78 @@ button3.addEventListener('click', () => {
 
 
 
-// /////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-// // Get all the navigation buttons
-// const navBtns = document.querySelectorAll('.nav-btn');
-
-// // Get all the cards
-// const cards = document.querySelectorAll('.card');
-
-// // Show the content of the card when hovering
-// function showContent(cardIndex) {
-//   cards[cardIndex - 1].style.filter = 'brightness(50%)';
-//   cards[cardIndex - 1].querySelector('.card-content').style.display = 'block';
-// }
-
-// // Hide the content of the card when not hovering
-// function hideContent(cardIndex) {
-//   cards[cardIndex - 1].style.filter = 'none';
-//   cards[cardIndex - 1].querySelector('.card-content').style.display = 'none';
-// }
-
-// // Show all the cards when
-// navBtns[0].addEventListener('click', function () {
-// for (let i = 0; i < cards.length; i++) {
-// cards[i].style.filter = 'none';
-// }
-// navBtns[0].classList.add('active-btn');
-// for (let i = 1; i < navBtns.length; i++) {
-// navBtns[i].classList.remove('active-btn');
-// }
-// });
-
-// // Connect the other navigation buttons to their respective cards
-// navBtns[1].addEventListener('click', function () {
-// for (let i = 0; i < cards.length; i++) {
-// if (i === 0) {
-// cards[i].style.filter = 'none';
-// } else {
-// cards[i].style.filter = 'brightness(50%)';
-// }
-// }
-// navBtns[1].classList.add('active-btn');
-// for (let i = 0; i < navBtns.length; i++) {
-// if (i !== 1) {
-// navBtns[i].classList.remove('active-btn');
-// }
-// }
-// });
-
-// navBtns[2].addEventListener('click', function () {
-// for (let i = 0; i < cards.length; i++) {
-// if (i === 1) {
-// cards[i].style.filter = 'none';
-// } else {
-// cards[i].style.filter = 'brightness(50%)';
-// }
-// }
-// navBtns[2].classList.add('active-btn');
-// for (let i = 0; i < navBtns.length; i++) {
-// if (i !== 2) {
-// navBtns[i].classList.remove('active-btn');
-// }
-// }
-// });
-
-// navBtns[3].addEventListener('click', function () {
-// for (let i = 0; i < cards.length; i++) {
-// if (i === 2) {
-// cards[i].style.filter = 'none';
-// } else {
-// cards[i].style.filter = 'brightness(50%)';
-// }
-// }
-// navBtns[3].classList.add('active-btn');
-// for (let i = 0; i < navBtns.length; i++) {
-// if (i !== 3) {
-// navBtns[i].classList.remove('active-btn');
-// }
-// }
-// });
-
-// navBtns[4].addEventListener('click', function () {
-// for (let i = 0; i < cards.length; i++) {
-// if (i === 3) {
-// cards[i].style.filter = 'none';
-// } else {
-// cards[i].style.filter = 'brightness(50%)';
-// }
-// }
-// navBtns[4].classList.add('active-btn');
-// for (let i = 0; i < navBtns.length; i++) {
-// if (i !== 4) {
-// navBtns[i].classList.remove('active-btn');
-// }
-// }
-// });
-
-// navBtns[5].addEventListener('click', function () {
-// for (let i = 0; i < cards.length; i++) {
-// if (i === 4) {
-// cards[i].style.filter = 'none';
-// } else {
-// cards[i].style.filter = 'brightness(50%)';
-// }
-// }
-// navBtns[5].classList.add('active-btn');
-// for (let i = 0; i < navBtns.length; i++) {
-// if (i !== 5) {
-// navBtns[i].classList.remove('active-btn');
-// }
-// }
-// });
-
-// navBtns[6].addEventListener('click', function () {
-// for (let i = 0; i < cards.length; i++) {
-// if (i === 5) {
-// cards[i].style.filter = 'none';
-// } else {
-// cards[i].style.filter = 'brightness(50%)';
-// }
-// }
-// navBtns[6].classList.add('active-btn');
-// for (let i = 0; i < navBtns.length; i++) {
-// if (i !== 6) {
-// navBtns[i].classList.remove('active-btn');
-// }
-// }
-// });
-
-// // Add event listeners to each card
-// for (let i = 0; i < cards.length; i++) {
-// let img = cards[i].querySelector('.card-image');
-// let overlay = cards[i].querySelector('.card-overlay');
-// let title = cards[i].querySelector('.card-title');
-// let text = cards[i].querySelector('.card-text');
-
-// cards[i].addEventListener('mouseenter', function () {
-// overlay.style.display = 'block';
-// img.style.filter = 'brightness(50%)';
-// title.style.display = 'block';
-// text.style.display = 'block';
-// });
-
-// cards[i].addEventListener('mouseleave', function () {
-// overlay.style.display = 'none';
-// img.style.filter = 'none';
-// title.style.display = 'none';
-// text.style.display = 'none';
-// });
-// }
 
 
 
 
 
+// ///////////////////////////
+const navBtns = document.querySelectorAll('.nav-btn');
 
 
+const cards = document.querySelectorAll('.card-nav');
+
+
+function showContent(cardIndex) {
+  cards[cardIndex - 1].style.filter = 'brightness(50%)';
+  const cardContent = cards[cardIndex - 1].querySelector('.card-content');
+  cardContent.style.display = 'block';
+  const img = cardContent.querySelector('.card-image');
+  const text1 = cardContent.querySelector('.card-text-1');
+  const text2 = cardContent.querySelector('.card-text-2');
+  img.src = `https://picsum.photos/id/${Math.floor(Math.random() * 1000)}/300/200`;
+  text1.textContent = 'Line 1 of text';
+  text2.textContent = 'Line 2 of text';
+}
+
+
+function hideContent(cardIndex) {
+  cards[cardIndex - 1].style.filter = 'none';
+  cards[cardIndex - 1].querySelector('.card-content').style.display = 'none';
+}
+
+
+navBtns[0].addEventListener('click', function () {
+  for (let i = 0; i < cards.length; i++) {
+    cards[i].style.filter = 'none';
+  }
+  navBtns[0].classList.add('active-btn');
+  for (let i = 1; i < navBtns.length; i++) {
+    navBtns[i].classList.remove('active-btn');
+  }
+});
+
+
+for (let j = 1; j < navBtns.length; j++) {
+  navBtns[j].addEventListener('click', function () {
+    for (let i = 0; i < cards.length; i++) {
+      if (i === j - 1) {
+        cards[i].style.filter = 'none';
+      } else {
+        cards[i].style.filter = 'brightness(50%)';
+      }
+    }
+    navBtns[j].classList.add('active-btn');
+    for (let i = 0; i < navBtns.length; i++) {
+      if (i !== j) {
+        navBtns[i].classList.remove('active-btn');
+      }
+    }
+  });
+}
+
+
+for (let i = 0; i < cards.length; i++) {
+  cards[i].addEventListener('mouseenter', function () {
+    showContent(i + 1);
+  });
+
+  cards[i].addEventListener('mouseleave', function () {
+    hideContent(i + 1);
+  });
+}
+;
+// ///////////////////////////////////////////////////////////////////////////////
 
 
 

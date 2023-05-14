@@ -26,7 +26,6 @@
     max-width: 18px;
     margin-left: -77px;
     margin-top: 15px;
-    
 }
 
 .facebook-1 {
@@ -39,7 +38,6 @@
     max-width: 20px;
     margin-left: -16px;
     margin-top: -92px;
-    
 }
 
 .horizontal-line-1 {
@@ -63,7 +61,6 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-
     position: absolute; 
     top: 53rem; 
     left: 265px; 
@@ -85,7 +82,6 @@
 }
 
 @media (width >=1715px) {
-
     .pc-more-info-1,
     .pc-more-info-2,
     .pc-more-info-3,
@@ -96,7 +92,6 @@
 }
 
 @media (width >=1900px) {
-
     .pc-more-info-1,
     .pc-more-info-2,
     .pc-more-info-3,
@@ -107,7 +102,6 @@
 }
 
 @media (width >=2130px) {
-
     .pc-more-info-1,
     .pc-more-info-2,
     .pc-more-info-3,
@@ -129,7 +123,6 @@
 }
 
 @media (width >=2500px) {
-
     .pc-more-info-1,
     .pc-more-info-2,
     .pc-more-info-3,
@@ -142,7 +135,6 @@
 
 
 @media (width <=1150px) {
-
     .pc-more-info-1,
     .pc-more-info-2,
     .pc-more-info-3,
@@ -153,7 +145,6 @@
 }
 
 @media (width <=1050px) {
-
     .pc-more-info-1,
     .pc-more-info-2,
     .pc-more-info-3,
@@ -164,7 +155,6 @@
 }
 
 @media (width <=980px) {
-
     .pc-more-info-1,
     .pc-more-info-2,
     .pc-more-info-3,
@@ -175,7 +165,6 @@
 }
 
 @media (width <=910px) {
-
     .pc-more-info-1,
     .pc-more-info-2,
     .pc-more-info-3,
@@ -186,7 +175,6 @@
 }
 
 @media (width <=870px) {
-
     .pc-more-info-1,
     .pc-more-info-2,
     .pc-more-info-3,
@@ -197,7 +185,6 @@
 }
 
 @media (width <=870px) {
-
     .pc-more-info-3 {
         max-width: 200px !important;
         margin-left: -6.2rem !important;
@@ -211,7 +198,6 @@
 
 
 @media (width <=830px) {
-
     .pc-more-info-1,
     .pc-more-info-2,
     .pc-more-info-3,
@@ -225,7 +211,6 @@
 }
 
 @media (width <=770px) {
-
     .pc-more-info-1,
     .pc-more-info-2,
     .pc-more-info-3,
@@ -461,8 +446,6 @@
     padding: 20px;
     text-align: center;
     transition: all 0.3s ease;
-
-   
 }
 
 .my-card:hover {
@@ -593,21 +576,8 @@ h2,
 .button.active {
     border-color: #E93656;
 }
-/* ///////////////////////////////////////////////////////////////////// */
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* .title-container {
+.title-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -631,33 +601,39 @@ h2,
     flex-direction: column;
     background-color: #15263E;
     padding: 20px;
-    border-radius: 10px;
     margin-right: 20px;
+    max-width: 180px;
+    max-height: 380px;
 }
 
 .nav-btn {
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #ffffff;
+    background-color: transparent;
     border: none;
     border-radius: 5px;
-    color: #15263E;
+    color: #ffffff;
     font-weight: bold;
     cursor: pointer;
 }
 
+.nav-btn:hover {
+    color: #E93656;
+}
+
 .active-btn {
-    background-color: #d3d3d3;
-    color: #15263E;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 .card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 0px;
+    max-width: 1070px !important;
 }
 
-.card {
+.nav-card {
     width: 350px;
     height: 300px;
     background-color: #f5f5f5;
@@ -665,14 +641,14 @@ h2,
     overflow: hidden;
 }
 
-.card img {
+.nav-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: all 0.5s ease;
 }
 
-.card:hover img {
+.nav-card:hover img {
     filter: brightness(50%);
 }
 
@@ -686,7 +662,7 @@ h2,
     color: #ffffff;
 }
 
-.card:hover .card-content {
+.card:hover .card-content, .card-title-2{
     display: block;
 }
 
@@ -695,7 +671,8 @@ h2,
     height: 100px;
     border-radius: 50%;
     margin-bottom: 10px;
-}
+    padding: 10px;
+} 
 
 .card-content h2 {
     font-size: 20px;
@@ -705,13 +682,21 @@ h2,
 .card-content p {
     font-size: 14px;
     margin-bottom: 0;
-} */
+}
 
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-
-
-
-
+@media (width >=1900px) {
+    .center-container {
+        margin-top: 12rem;
+    }
+}
+/* ///////////////////////////////////////////////////////////////////////////// */
 
 
 
