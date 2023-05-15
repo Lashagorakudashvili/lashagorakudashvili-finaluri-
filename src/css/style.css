@@ -697,6 +697,241 @@ h2,
     }
 }
 /* ///////////////////////////////////////////////////////////////////////////// */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 800px;
+    margin: 50px;
+    padding-right: 20px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.image {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.line {
+    border-top: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.vertical-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 65px solid #15263E;
+    height: 590px;
+    width: 123px;
+    color: #E93656;
+    text-align:left;
+    font-weight: bold;
+}
+
+.vertical-line span {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: #E93656;
+    font-weight: bold;
+    transform: rotate(-180deg);
+    margin-right: 10px;
+    letter-spacing: 3px;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.picture {
+    height: 590px;
+    margin-left: -0.4rem;
+}
+
+@media (width <=1250px) {
+    .right-side {
+        margin-right: 10rem !important;
+    }
+}
+
+@media (width <=1075px) {
+    .picture {
+        width: 345px !important;
+    }
+    
+    .right-side {
+        margin-right: 5.5rem !important;
+    }
+    .left-side {
+        margin-right: -12rem !important;
+        margin-top: 7rem !important;
+    }
+}
+
+@media (width >=1440px) {
+    .picture {
+        width: 550px !important;
+        margin-right: -7.4rem;
+    }
+
+    .left-side {
+        margin-right: 3rem !important;
+        margin-top: 8rem !important;
+    }
+}
+
+@media (width >=2360px) {
+    .picture {
+        width: 1200px !important;
+        margin-right: -37rem;
+    }
+
+    .left-side {
+        margin-right: 35rem !important;
+        margin-top: 7rem !important;
+    }
+}
+/* ///////////////////////////////////////////////////////////////////////////// */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 800px;
+    margin: 50px;
+    padding-right: 20px;
+}
+
+.vertical-line-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 65px solid #15263E;
+    height: 590px;
+    width: 123px;
+    color: #E93656;
+    text-align: left;
+    font-weight: bold;
+}
+
+.vertical-line-1 span {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: #E93656;
+    font-weight: bold;
+    transform: rotate(-180deg);
+    margin-right: 10px;
+    letter-spacing: 3px;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.right-side-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.image-1 {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.text-1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.vertical-line-1 {
+    margin-left: -6.7rem !important;
+}
+
+.picture-1 {
+   width: 520px !important;
+   height: 590px;
+   margin-left: -47rem !important;
+}
+
+
+@media (width <=1024px) {
+    .picture-1 {
+        width: 430px !important;
+        margin-left: -37rem !important;
+    }
+
+    .vertical-line-1 {
+        margin-left: -2.8rem !important;
+    }
+
+    .right-side-1 {
+        margin-right: -36rem !important;
+    }
+}
+
+@media (width >=1440px) {
+    .picture-1 {
+        width: 720px !important;
+        height: 590px;
+        margin-right: 8.5rem;
+    }
+
+    .vertical-line-1 {
+        margin-left: -2.6rem !important;
+    }
+
+    .right-side-1 {
+        margin-right: -50rem !important;
+    }
+}
+
+@media (width >=2360px) {
+    .picture-1 {
+        width: 1220px !important;
+        height: 590px;
+        margin-right: 50rem;
+    }
+    
+    .vertical-line-1 {
+        margin-left: -13.5rem !important;
+    }
+
+    .right-side-1 {
+        margin-right: -70rem !important;
+    }
+}
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+
 
 
 
