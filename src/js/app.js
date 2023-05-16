@@ -34,9 +34,6 @@ window.addEventListener('scroll', function() {
 
 
 
-
-
-
 // ///////////////////////////
 const smallImage = document.querySelector('.circle-border img');
 const leftText = document.querySelector('.left-text p');
@@ -75,9 +72,6 @@ button3.addEventListener('click', () => {
   button2.classList.remove('active');
   button3.classList.add('active');
 });
-
-
-
 
 
 
@@ -149,7 +143,73 @@ for (let i = 0; i < cards.length; i++) {
   });
 }
 ;
+
+
+
+
+
+// ///////////////////////////
+window.addEventListener('DOMContentLoaded', function () {
+  var imageElements = document.querySelectorAll('.image-3 img');
+  var imageCount = imageElements.length;
+
+
+  for (var i = 0; i < imageCount; i++) {
+    generateRandomImage(imageElements[i]);
+  }
+});
+
+function generateRandomImage(imageElement) {
+  var randomImageURL = 'https://via.placeholder.com/300x300?text=Image+' + Math.floor(Math.random() * 100);
+  imageElement.src = randomImageURL;
+}
+
+
+
+
+// ///////////////////////////
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  var formData = new FormData(this);
+
+  fetch('https://borjomi.loremipsum.ge/api/send-message', {
+    method: 'POST',
+    body: formData
+  })
+    .then(response => response.json())
+    .then(data => {
+      if (data && data.status === 1) {
+        showModal('Message has been sent successfully');
+      } else {
+        showModal('An error occurred while sending the message');
+      }
+    })
+    .catch(error => {
+      showModal('An error occurred while sending the message');
+    });
+});
+
+function showModal(message) {
+  var modal = document.getElementById('modal');
+  var modalMessage = document.getElementById('modalMessage');
+
+  modalMessage.textContent = message;
+  modal.style.display = 'block';
+
+  var closeButton = document.getElementsByClassName('close')[0];
+  closeButton.onclick = function() {
+    modal.style.display = 'none';
+  };
+
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = 'none';
+    }
+  };
+}
 // ///////////////////////////////////////////////////////////////////////////////
+
 
 
 
