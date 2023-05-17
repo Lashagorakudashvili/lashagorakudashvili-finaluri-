@@ -13,23 +13,33 @@ image.src = images[currentIndex];
 
 setInterval(changeImage, 5000);
 
+// ///////////////////////////
+
+
+
+
+
+
+
+
 
 
 
 
 // ///////////////////////////
-const lines = document.querySelectorAll('.line-1, .line-2, .line-3, .line-4');
 
-window.addEventListener('scroll', function() {
-  const windowHeight = window.innerHeight;
+// const lines = document.querySelectorAll('.line-1, .line-2, .line-3, .line-4');
 
-  lines.forEach(line => {
-    const linePos = line.getBoundingClientRect().top;
-    if (linePos < windowHeight * 0.8) {
-      line.style.width = '100%';
-    }
-  });
-});
+// window.addEventListener('scroll', function() {
+//   const windowHeight = window.innerHeight;
+
+//   lines.forEach(line => {
+//     const linePos = line.getBoundingClientRect().top;
+//     if (linePos < windowHeight * 0.8) {
+//       line.style.width = '100%';
+//     }
+//   });
+// });
 
 
 
@@ -180,7 +190,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     .then(response => response.json())
     .then(data => {
       if (data && data.status === 1) {
-        showModal('Message has been sent successfully');
+        showModal('Thank you for getting in touch! We appreciate you contacting us.'); //Message has been sent successfully
       } else {
         showModal('An error occurred while sending the message');
       }
