@@ -19,9 +19,42 @@ setInterval(changeImage, 5000);
 
 
 
+// const lines = document.querySelectorAll('.line');
+
+// window.addEventListener('scroll', function() {
+//   const windowHeight = window.innerHeight;
+
+//   lines.forEach(line => {
+//     const linePos = line.getBoundingClientRect().top;
+//     if (linePos < windowHeight * 0.8) {
+//       line.style.width = '100%';
+//     }
+//   });
+// });
 
 
 
+const lines = document.querySelectorAll('.line');
+
+const targetWidths = {
+  'line-1': '46%',
+  'line-2': '36%',
+  'line-3': '26%',
+  'line-4': '16%'
+};
+
+window.addEventListener('scroll', function() {
+  const windowHeight = window.innerHeight;
+
+  lines.forEach(line => {
+    const linePos = line.getBoundingClientRect().top;
+    const lineId = line.classList[1];
+    
+    if (linePos < windowHeight * 0.8) {
+      line.style.width = targetWidths[lineId];
+    }
+  });
+});
 
 
 
