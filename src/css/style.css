@@ -327,13 +327,13 @@
     }
 }
 
-@media (width <= 1225px) {
+/* @media (width <= 1225px) {
     .picture {
         margin-right: -9.4rem;
     }
-}
+} */
 
-@media (width <=1265px) {
+/* @media (width <=1265px) {
     .picture, .picture-2 {
        width: 450px !important;
     }
@@ -343,15 +343,17 @@
     
     .picture-2 {
         margin-right: 3rem;
-    }
-}
+    } 
 
 
-/*  */
-/* * {
-    border: 1px solid red;
+    .picture-1 {
+        width: 200px !important;
+        margin-left: 20rem !important;
+    } 
 } */
-/*  */
+
+
+
 
 @media (width <=2560px) {
     .big-image-container {
@@ -359,11 +361,9 @@
     }
 }
 
-
+/* 
 @media (width <=1170px) {
-    /* * {
-        border: 5px solid red;
-    } */
+
     
     .picture,
     .picture-2 {
@@ -385,21 +385,12 @@
 
       
     }
-}
-
-
-
-
-@media (width <=1265px) {
-  
+} */
 
 
 
 
 
-
-    
-}
 
 
 
@@ -886,6 +877,31 @@ h2,
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .container {
     display: flex;
     flex-direction: row;
@@ -963,7 +979,7 @@ h2,
     margin-left: -0.4rem;
 }
 
-@media (width <=1250px) {
+/* @media (width <=1250px) {
     .right-side {
         margin-right: 10rem !important;
     }
@@ -1019,7 +1035,7 @@ h2,
     }
 }
 
-@media (width >=2360px) {
+@media (width = 2560px) {
     .picture {
         width: 1200px !important;
         margin-right: -37rem;
@@ -1039,7 +1055,7 @@ h2,
         margin-right: 35rem !important;
         margin-top: 7rem !important;
     }
-}
+} */
 
 .container {
     display: flex;
@@ -1106,6 +1122,8 @@ h2,
 }
 
 
+
+/* 
 @media (width <=1024px) {
     .picture-1 {
         width: 430px !important;
@@ -1119,9 +1137,10 @@ h2,
     .right-side-1 {
         margin-right: -36rem !important;
     }
-}
+} 
 
-@media (width >=1440px) {
+
+@media (width = 1440px) {
     .picture-1 {
         width: 720px !important;
         height: 590px;
@@ -1135,9 +1154,12 @@ h2,
     .right-side-1 {
         margin-right: -50rem !important;
     }
-}
+} 
 
-@media (width >=2360px) {
+
+
+
+@media (width = 2560px) {
     .picture-1 {
         width: 1220px !important;
         height: 590px;
@@ -1151,7 +1173,7 @@ h2,
     .right-side-1 {
         margin-right: -70rem !important;
     }
-}
+} */
 
 .container {
     display: flex;
@@ -1228,6 +1250,149 @@ h2,
 .picture-2 {
     height: 590px;
     margin-left: -0.4rem;
+}
+
+
+
+/* @media (width <= 2559px){
+    .right-side {
+        margin-right: 4.5rem;
+    }
+
+    .right-side-2 {
+        margin-right: 4.5rem;
+    }
+} 
+
+@media (width <= 1440px) {
+    .right-side {
+        margin-right: 0rem;
+    }
+
+    .right-side-2 {
+        margin-right: 0rem;
+    }
+}
+
+@media (width <=1265px) {
+    .picture-1 {
+        width: 460px !important;
+
+        margin-right: -3.5rem !important;
+    }
+
+}
+
+@media (width <=1250px) {
+    .right-side {
+        margin-right: 0rem !important;
+    }
+}
+
+@media (width <=1170px) {
+    .right-side {
+        margin-right: 10rem !important;
+    }
+
+    .right-side-2 {
+        margin-right: 3rem !important;
+    }
+} */
+
+@media (width <= 1260px){
+    * {
+        overflow-x: hidden;
+    }
+
+    .container-2 {
+        overflow-y: hidden;
+    }
+
+    .p-logo-1, .p-logo-3, .p-logo-2, .card-img-overlay, .vertical-line-2, .vertical-line-1, .vertical-line, #ico, #pre, #log, #psd, #moc, #work, #all, .nav-card-container, .nav-container, .right-content, .image-overlay, .big-image-container, .button3, .button2, .button1, .button, .button-container-2, .p-info, .info-1, .button-container, .square-button, .bas {
+        overflow: visible !important;
+    }
+
+    /* .picture-2 {
+        width: 700px !important;
+    } */
+
+    .picture-1 {
+        margin-right: -11rem !important;
+    }
+
+    .right-side {
+        margin-left: 37rem !important;
+    }
+
+    .vertical-line-1 {
+        margin-left: -3.8rem !important;
+    }
+
+    .right-side-2 {
+        margin-left: 37rem !important;
+    }
+
+    .left-side {
+        margin-top: 6rem !important;
+        margin-left: -30rem !important;
+    }
+
+    .right-side-1 {
+        margin-left: -7rem !important;
+    }
+
+    .left-side-1 {
+        margin-top: 6rem !important;
+        margin-left: -30rem !important;
+    }
+
+
+    
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width <= 790px){
+    .p-info {
+        margin-left: -1.7rem;
+    }
+}
+
+@media (width <=902px) {
+    .nav-card-container {
+        margin-left: 6.4rem !important;
+    }
 }
 
 .image-container {
