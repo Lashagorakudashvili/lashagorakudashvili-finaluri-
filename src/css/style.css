@@ -1345,9 +1345,320 @@ h2,
         margin-top: 6rem !important;
         margin-left: -30rem !important;
     }
+}
 
 
+@media (width <= 1200px) {
+    .right-side {
+       margin-left: 31.3rem !important;
+    }
+
+    .right-side-2 {
+        margin-left: 31.3rem !important;
+    }
+}
+
+@media (width <=1010px) {
+    .picture-1 {
+        width: 300px !important;
+        margin-left: -48rem !important;
+    }
+
+    .vertical-line-1 {
+      margin-left: -10rem !important;
+    }
+
+    .right-side {
+        margin-left: 28rem !important;
+    }
+
+    .right-side-2 {
+        margin-left: 28rem !important;
+    }
+
+    /* * {
+        border: 1px solid red;
+    } */
+
+    .right-side-1 {
+        margin-left: -18rem !important;
+    }
+}
+
+@media (width <=992px) {
+    .left-side {
+       margin-left: -22rem !important;
+    }
+
+    .right-side {
+        margin-left: 20.5rem !important;
+    }
+
+    #first-text-1 {
+       width: 200px !important;
+    }
+
+    #first-text-2 {
+        width: 200px !important;
+    }
+
+    .right-side-1 {
+        margin-left: -25rem !important;
+    }
+
+    .right-side-2 {
+        margin-left: 20.5rem !important;
+    }
+
+    .left-side-1 {
+        margin-left: -22rem !important;
+    }
+
+    #first-text-3 {
+        width: 200px !important;
+    }
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (width <= 768px) {
+    .info-1 {
+        margin-top: 5rem !important;
+    }
+
+    .pc-more-info-3 {
+        width: 100px !important;
+        margin-left: -4.5rem !important;
+    }
+
+    .hire-me-btn {
+        margin-top: 15rem !important;
+        margin-left: -13rem !important;
+    }
+}
+
+@media (width <=700px) {
+    .bas {
+        margin-left: -20rem !important;
+    }
+}
+
+@media (width <=761px) {
+    .phone-img-1, .phone-img-2, .email-img {
+       width: 50px !important;
+    }
+
+    .p-info {
+        font-size: 10px !important;
+    }
+
+    .phone-img-2 {
+        margin-left: 7.3rem !important;
+    }
+
+    .email-img {
+        margin-left: 9.4rem !important;
+    }
+
+    .Satisfied-1, .m100-1 {
+       font-size: 11px !important;
+       margin-top: 6.6rem;
+       margin-right: -2.2rem !important;
+    }
+
+    .m100-1 {
+        margin-top: 0rem !important;
+        margin-right: -4.5rem !important;
+    }
+
+    .horizontal-line-1 {
+        width: 100px !important;
+    }
+}
+
+@media (width <=743px) {
+    .card-title-1, .card-text-1 {
+        font-size: 20px !important;
+    }
+
+    #card-text-1 {
+        font-size: 11px !important; 
+    }
+
+    .card-title-1 {
+        margin-left: -1.3rem !important;
+    }
+
+    .card-text-1 {
+        margin-left: 7rem !important;
+    }
+
+    .github-1, .facebook-1, .yt-1 {
+        max-width: 120px !important;
+        width: 15px !important;
+        margin-top: -2rem !important;
+        
+    }
+
+    .github-1 {
+        margin-left: -2rem !important;
+    }
+
+    .facebook-1 {
+        margin-top: -5rem !important;
+        margin-left: 0rem !important;
+    }
+
+    .yt-1 {
+        margin-top: -8rem !important;
+        margin-left: 3.3rem !important;
+    }
+
+    .pc-more-info-3 {
+        margin-left: -6.5rem !important;
+    }
+
+    .pc-more-info-1 {
+        font-size: 15px !important;
+    }
+
+    .pc-more-info-2 {
+        font-size: 10px !important;
+        margin-left: -14rem !important;
+    }
+
+    .hire-me-btn {
+        margin-left: -15.2rem !important;
+    }
+}
+
+@media (width <=671px) {
+    .bas {
+            margin-left: -23rem !important;
+    }
+}
+
+@media (width <=775px) {
+    .round-pic  {
+        width: 70px !important;
+    }
+
+    .circle-border {
+        width: 85px;
+        height: 85px;
+    }
+
+    .left-text-1 {
+        font-size: 10px !important;
+        width: 200px !important;
+        margin-left: 10rem !important;
+    }
+
+    .right-image-1 {
+        width: 15px !important;
+    }
+
+    .right-content {
+        margin-left: -7rem !important;
+    }
+
+    .button-container-2 {
+        margin-left: 15rem !important;
+    }
+
+    .New-right-text {
+        font-size: 8px !important;
+    }
+
+    .New-right-text-2 {
+        font-size: 12px !important;
+    }
+}
+
+@media (width <= 666px) {
+   .horizontal-line-1 {
+    margin-top: 3rem !important;
+    width: 70px !important;
+    margin-right: -1.5rem !important;
+   }
+
+   .m100-1, .Satisfied-1 {
+    font-size: 7px !important;
+   }
+
+   .Satisfied-1 {
+    margin-top: 17.3rem !important;
+    margin-right: -3.7rem !important;
+   }
+
+   .m100-1 {
+    margin-top: 4rem !important;
+    margin-right: -7.7rem !important;
+   }
+
+   .card-title-1 {
+    font-size: 10px !important;
+    margin-right: -4.2rem !important;
+   }
+
+   .card-text-1 {
+    font-size: 13px !important;
+    margin-right: -2rem !important;
+   }
+
+   #card-text-1 {
+    font-size: 8px !important;
+   }
+
+.github-1 {
+    margin-left: 2rem !important;
+}
+
+.facebook-1 {
+   
+    margin-left: 5rem !important;
+}
+
+.yt-1 {
     
+    margin-left: 8.3rem !important;
+}
+
+}
+
+@media (width <=625px) {
+    .my-pic {
+        width: 250px !important;
+    }
+
+    .hire-me-btn {
+        margin-top: 10rem !important;
+    }
+
+         .bas {
+             margin-left: -26rem !important;
+         }
+}
+
+@media (width <=570px) {
+    .bas {
+        margin-left: -27.5rem !important;
+    }
+
+    .nav-card-container {
+        margin-right: 10rem !important;
+    }
+
+    .image-container {
+        gap: 5px !important;
+        width: 500px !important;
+
+        margin-left: 2rem !important;
+    }
+}
+    @media (width <=768px) {
+    .image-container {
+        gap: 5px !important;
+    }
 }
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -1360,6 +1671,9 @@ h2,
 
 
 
+@media (width <=560px) {
+    
+}
 
 
 
@@ -1370,18 +1684,7 @@ h2,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 @media (width <= 790px){
     .p-info {
