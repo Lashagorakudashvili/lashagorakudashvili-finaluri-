@@ -1672,7 +1672,127 @@ h2,
 
 
 @media (width <=560px) {
+    .phone-img-1,
+    .phone-img-2,
+    .email-img {
+        width: 30px !important;
+    }
+
+    .num-1, .num-2, .adrs-1, .adrs-2, .eml-1, .eml-2 {
+        font-size: 6px !important;
+    }
+
+    .num-1,
+    .num-2, .adrs-1,
+    .adrs-2, .eml-1,
+    .eml-2 {
+        margin-left: 0.2rem !important;
+    }
+
+    .phone-img-1 {
+        margin-left: -4rem !important;
+    }
+
+    .phone-img-2 {
+        margin-left: 6.3rem !important;
+    }
+
+    .email-img {
+        margin-left: 7.5rem !important;
+    }
+
+    .m01-1 {
+        font-size: 50px !important;
+        margin-top: 1rem !important;
+        margin-right: 0rem !important;
+    }
+
+    .me-1 {
+        font-size: 15px !important;
+        margin-top: -0.5rem !important;
+    }
+      
+    .card-title-1 {
+        font-size: 5px !important;
+        margin-right: -9rem !important;
+    }
     
+    .card-text-1 {
+        font-size: 7px !important;
+        margin-right: -4rem !important;
+        margin-top: -1px !important;
+    }
+    
+    #card-text-1 {
+        font-size: 5px !important;
+    }
+
+    .github-1 {
+        margin-left: 7rem !important;
+    }
+    
+    .facebook-1 {
+        margin-left: 9.5rem !important;
+    }
+    
+    .yt-1 {
+        margin-left: 12.3rem !important;
+    }
+}
+
+@media (width <=535px) {
+    .bas {
+        margin-top: 45rem !important;
+        margin-left: -40rem !important;
+    }
+
+    .infoo-1 {
+        margin-top: 20rem !important;
+    }
+
+    .Latest-Articles {
+        display: none;
+    }
+
+    .pc-more-info-1 {
+        margin-left: -1rem !important;
+    }
+
+    .pc-more-info-2 {
+        margin-left: -3rem !important;
+    }
+
+    .pc-more-info-3 {
+        margin-left: 5rem !important;
+    }
+
+    .hire-me-btn {
+        margin-top: 40rem !important;
+        margin-left: -3.5rem !important;
+    }
+
+    .info-1 {
+        margin-top: -15rem !important;
+    }
+
+    #card-title-1, .card-text-1, #card-text-1, .github-1, .facebook-1, .yt-1, .m100-1, .Satisfied-1, .horizontal-line-1 {
+        display: none;
+        margin-left: 20rem !important;
+    }
+
+    .mob-heder {
+        display: contents !important;
+    }
+
+    .horizontal-line-2 {
+        border-bottom: 3.5px solid #E93656;
+        border-radius: 50px;
+        width: 120px;
+    }
+
+        .image-container {
+          margin-left: 0.5rem !important;
+        }
 }
 
 
@@ -1683,6 +1803,74 @@ h2,
 
 
 
+
+
+@media (width <=515px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width <= 455px) {
+    .pc-more-info-1 {
+            margin-left: -4rem !important;
+        }
+    
+        .pc-more-info-2 {
+            margin-left: -6rem !important;
+        }
+    
+        .pc-more-info-3 {
+            margin-left: 2rem !important;
+        }
+    
+        .hire-me-btn {
+            margin-top: 40rem !important;
+            margin-left: -7.5rem !important;
+        }
+
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width >= 536px) {
+.mob-heder {
+    display: none !important;
+}
+}
+
+@media (width <= 545px){
+    .Latest-Articles {
+        display: none;
+    }
+}
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
