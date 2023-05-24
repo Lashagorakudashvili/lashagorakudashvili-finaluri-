@@ -1434,7 +1434,141 @@ h2,
         margin-top: 15rem !important;
         margin-left: -13rem !important;
     }
+
+    .left-side {
+        margin-top: 40rem !important;
+    
+        margin-left: auto !important;
+        margin-right: auto !important;
+        
+    }
+
+    .vertical-line, .vertical-line-1, .vertical-line-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 20px solid #15263E;
+        height: 590px;
+        width: 23px;
+        /* color: #E93656; */
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .vertical-line-2 span, .vertical-line-1 span, .vertical-line span {
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+        color: #E93656;
+        font-weight: bold;
+        transform: rotate(-180deg);
+        margin-right: 10px;
+        letter-spacing: 3px;
+        font-size: 13px;
+        font-weight: 100;
+    }
+
+    .right-side {
+        /* margin-left: 5rem !important; */
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+
+
+    #c-c-2 {
+        margin-top: 80rem !important;
+    }
+
+    .picture-1 {
+        margin-top: -50rem !important;
+        position: absolute;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 500px !important;
+    }
+
+    .vertical-line-1 {
+        margin-top: -50rem !important;
+        margin-left: -31rem !important;
+    }
+
+    .right-side-1 {
+        margin-top: -9rem !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+
+
+    #c-c-3 {
+        margin-top: 30rem !important;
+    }
+
+    .right-side-2 {
+        margin-top: -12rem !important;
+        position: absolute;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .picture-2 {
+        width: 500px !important;
+    }
+
+    .left-side-1 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 27rem !important;
+    }
+
+    .Rosa-Team-1 {
+        margin-top: 55rem !important;
+    }
 }
+
+
+@media (width <=535px) {
+    .picture, .picture-1, .picture-2 {
+        width: 400px !important;
+    }
+
+    .vertical-line-1 {
+        margin-left: -25rem !important;
+    }
+}
+
+@media (width <=440px) {
+
+    .picture,
+    .picture-1,
+    .picture-2 {
+        width: 300px !important;
+    }
+
+        .vertical-line-1 {
+            margin-left: -19rem !important;
+        }
+}
+
+@media (width <=335px) {
+
+    .picture,
+    .picture-1,
+    .picture-2 {
+        width: 250px !important;
+    }
+
+    .vertical-line-1 {
+        margin-left: -15rem !important;
+    }
+}
+
+/* @media (width <=315px) {
+    .Latest-Articles-1 {
+        font-size: 40px !important;
+    }
+} */
 
 @media (width <=700px) {
     .bas {
@@ -1750,9 +1884,9 @@ h2,
         margin-top: 20rem !important;
     }
 
-    .Latest-Articles {
+    /* .Latest-Articles {
         display: none;
-    }
+    } */
 
     .pc-more-info-1 {
         margin-left: -1rem !important;
@@ -1807,55 +1941,292 @@ h2,
 
 @media (width <=515px) {
 
+.m01-1 {
+        font-size: 25px !important;
+        margin-top: 2.2rem !important;
+        margin-right: 0rem !important;
+    }
 
+    .me-1 {
+        font-size: 8px !important;
+        margin-top: -0.2rem !important;
+        white-space: nowrap;
+    }
+
+    .big-image-container img {
+        height: 500px !important;
+    }
+
+    .right-content {
+        margin-top: -17rem !important;
+        margin-left: -23rem !important;
+    }
+
+    .right-image-1 {
+        margin-top: -16rem !important;
+    }
+
+    .left-text-1 {
+        margin-top: 17rem !important;
+        margin-left: 30rem  !important;
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem !important;
+    }
+
+    .container-1 {
+        margin-top: 5rem !important;
+    }
+
+    .nav-container {
+        margin-top: 0rem !important;
+        margin-left: 11rem !important;
+        position: absolute;
+    }
+
+    .card-container {
+        margin-top: 24rem !important;
+        margin-left: 3.6rem !important;
+        
+    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (width <= 455px) {
+@media (width <=455px) {
     .pc-more-info-1 {
-            margin-left: -4rem !important;
+        margin-left: -4rem !important;
+    }
+
+    .pc-more-info-2 {
+        margin-left: -6rem !important;
+    }
+
+    .pc-more-info-3 {
+        margin-left: 2rem !important;
+    }
+
+    .hire-me-btn {
+        margin-top: 40rem !important;
+        margin-left: -7.5rem !important;
+    }
+
+    .bas {
+    margin-left: -43.5rem !important;
+    }
+
+    .image-container {
+        margin-left: -2rem !important;
+    }
+}
+
+@media (width <=410px) {
+    .image-container {
+        margin-left: -3.5rem !important;
+    }
+}
+
+@media (width <=400px) {
+    .pc-more-info-1 {
+            margin-left: -5.3rem !important;
         }
     
         .pc-more-info-2 {
-            margin-left: -6rem !important;
+            margin-left: -7.5rem !important;
         }
     
         .pc-more-info-3 {
-            margin-left: 2rem !important;
+            margin-left: 0rem !important;
         }
     
         .hire-me-btn {
-            margin-top: 40rem !important;
-            margin-left: -7.5rem !important;
+            margin-top: 31rem !important;
+            margin-left: -8.6rem !important;
         }
 
-        
+        .p-info {
+            margin-left: -0.5rem !important;
+        }
+    
+        .bas {
+            margin-left: -44.5rem !important;
+            margin-top: 35rem !important;
+        }
 }
 
 
 
 
+@media (width <=390px) {
+    .phone-img-1 {
+        margin-top: -32rem !important;
+        margin-left: 1rem !important;
+        position: absolute;
+    }
+
+    .num-1 {
+        margin-top: -14.5rem !important;
+        margin-left: -0.8rem !important;
+    }
+
+    .num-2 {
+        margin-top: -13.5rem !important;
+        margin-left: -2.5rem !important;
+    }
+
+    .back-1 {
+        height: 300px !important;
+    }
+
+    .phone-img-2 {
+        margin-top: -22rem !important;
+        margin-left: 1rem !important;
+        position: absolute;
+    }
+
+    .adrs-1 {
+        margin-left: -0.7rem !important;
+    }
+    
+    .adrs-2 {
+        margin-left: -3.7rem !important;
+        margin-top: -8.3rem !important;
+        white-space: nowrap;
+        max-width: 200px !important;
+    }
+
+    .email-img {
+        margin-left: 1rem !important;
+        position: absolute;
+        margin-top: -12rem !important;
+    }
+
+    .eml-1 {
+        margin-top: -4.5rem !important;
+        margin-left: -0.7rem !important;
+    }
+
+    .eml-2 {
+        margin-top: -3.5rem !important;
+        margin-left: -1.6rem !important;
+    }
+
+    .my-card-text {
+        font-size: 6px !important;
+        font-weight: bolder;
+    }
+
+    .my-card-title {
+        font-size: 6px !important;
+    }
+
+    .my-card-info {
+        font-size: 5px !important;
+    }
+}
+
+@media (width <=375px) {
+    .Latest-Articles-1 {
+        font-size: 50px !important;
+    }
+}
+
+@media (width <=365px) {
+    .main-title {
+        font-size: 40px !important;
+    }
+}
+
+@media (width <=355px) {
+    .bas {
+        margin-top: 40rem !important;
+    }
+}
+
+@media (width <= 345px) {
+    .image-container {
+        margin-left: -5rem !important;
+    }
+}
+
+@media (width <=335px) {
+    .pc-more-info-1 {
+            margin-left: -7.3rem !important;
+        }
+    
+        .pc-more-info-2 {
+            margin-left: -9.3rem !important;
+        }
+    
+        .pc-more-info-3 {
+            margin-left: -1.5rem !important;
+        }
+    
+        .hire-me-btn {
+            margin-top: 30rem !important;
+            margin-left: -10.5rem !important;
+        }
+
+        .bas {
+            margin-left: -46rem !important;
+        }
+}
+
+
+@media (width <=320px) {
+    .image-container {
+        margin-left: -6rem !important;
+    }
+}
 
 
 
 
+/* @media (width <=455px) {
+    .pc-more-info-1 {
+        margin-left: -4rem !important;
+    }
+
+    .pc-more-info-2 {
+        margin-left: -6rem !important;
+    }
+
+    .pc-more-info-3 {
+        margin-left: 2rem !important;
+    }
+
+    .hire-me-btn {
+        margin-top: 40rem !important;
+        margin-left: -7.5rem !important;
+    }
+
+
+} */
 
 
 
 
+@media (width <=315px) {
+    .Latest-Articles-1 {
+        font-size: 40px !important;
+    }
+}
+
+
+
+@media (width <=305px) {
+    .Rosa-Team-2 {
+        font-size: 50px !important;
+    }
+}
+
+
+@media (width <=285px) {
+    .picture-2 {
+        width: 240px !important;
+    }
+}
 
 
 
@@ -1866,11 +2237,11 @@ h2,
 }
 }
 
-@media (width <= 545px){
+/* @media (width <= 545px){
     .Latest-Articles {
         display: none;
     }
-}
+} */
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
