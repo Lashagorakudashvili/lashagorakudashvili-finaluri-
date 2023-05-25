@@ -13,27 +13,11 @@ image.src = images[currentIndex];
 
 setInterval(changeImage, 5000);
 
+
+
+
+
 // ///////////////////////////
-
-
-
-
-
-// const lines = document.querySelectorAll('.line');
-
-// window.addEventListener('scroll', function() {
-//   const windowHeight = window.innerHeight;
-
-//   lines.forEach(line => {
-//     const linePos = line.getBoundingClientRect().top;
-//     if (linePos < windowHeight * 0.8) {
-//       line.style.width = '100%';
-//     }
-//   });
-// });
-
-
-
 const lines = document.querySelectorAll('.line');
 
 const targetWidths = {
@@ -57,22 +41,6 @@ window.addEventListener('scroll', function() {
 });
 
 
-
-
-// ///////////////////////////
-
-// const lines = document.querySelectorAll('.line-1, .line-2, .line-3, .line-4');
-
-// window.addEventListener('scroll', function() {
-//   const windowHeight = window.innerHeight;
-
-//   lines.forEach(line => {
-//     const linePos = line.getBoundingClientRect().top;
-//     if (linePos < windowHeight * 0.8) {
-//       line.style.width = '100%';
-//     }
-//   });
-// });
 
 
 
@@ -123,9 +91,7 @@ button3.addEventListener('click', () => {
 // ///////////////////////////
 const navBtns = document.querySelectorAll('.nav-btn');
 
-
 const cards = document.querySelectorAll('.card-nav');
-
 
 function showContent(cardIndex) {
   cards[cardIndex - 1].style.filter = 'brightness(50%)';
@@ -223,7 +189,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     .then(response => response.json())
     .then(data => {
       if (data && data.status === 1) {
-        showModal('Thank you for getting in touch! We appreciate you contacting us.'); //Message has been sent successfully
+        showModal('Thank you for getting in touch! We appreciate you contacting us.');
       } else {
         showModal('An error occurred while sending the message');
       }
@@ -251,14 +217,3 @@ function showModal(message) {
     }
   };
 }
-// ///////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
